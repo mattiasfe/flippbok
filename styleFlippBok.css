@@ -2,29 +2,109 @@ img {
     width: 100%;
     height: auto;
 }
-div {
-    width: 100%;
-    height: auto;
-    background-image: url("flippBok\ oppgave.png")
+div.flippImg {
+    width: 200px;
+    height: 200px;
+    background-image: url("flippBok\ oppgave.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+@media screen and (min-width: 250px) {
+    div.flippImg {
+        background-image: url("flippBok oppgave 2.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+@media screen and (min-width: 300px) {
+    div.flippImg {
+        background-image: url("flippBok oppgave 3.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+@media screen and (min-width: 350px) {
+    div.flippImg {
+        background-image: url("flippBok oppgave 4.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+@media screen and (min-width: 400px) {
+    div.flippImg {
+        background-image: url("flippBok oppgave 5.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+@media screen and (min-width: 450px) {
+    div.flippImg {
+        background-image: url("flippBok oppgave 6.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+@media screen and (min-width: 500px) {
+    div.flippImg {
+        background-image: url("flippBok oppgave 7.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+@media screen and (min-width: 550px) {
+    div.flippImg {
+        background-image: url("flippBok oppgave 8.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+@media screen and (min-width: 600px) {
+    div.flippImg {
+        background-image: url("flippBok oppgave 9.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+@media screen and (min-width: 650px) {
+    div.flippImg {
+        background-image: url("flippBok oppgave 10.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+@media screen and (min-width: 700px) {
+    div.flippImg {
+        background-image: url("flippBok oppgave 11.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+@media screen and (min-width: 750px) {
+    div.flippImg {
+        background-image: url("flippBok oppgave 12.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
 @media screen and (min-width: 800px) {
-    img.flippImg {
-        src: "flippBok oppgave 2.png";
+    div.flippImg {
+        background-image: url("flippBok oppgave 13.png");
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }
-@media screen and(min-width: 750px) {
-    img.flippImg {
-        src: "flippBok oppgave 3.png";
+@media screen and (min-width: 850px) {
+    div.flippImg {
+        background-image: url("flippBok oppgave 14.png");
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }
-@media screen and(min-width: 700px) {
-    img.flippImg {
-        src: "flippBok oppgave 4.png";
-    }
-}
-@media screen and(min-width: 650px) {
-    img.flippImg {
-        src: "flippBok oppgave 5.png";
+@media screen and (min-width: 900px) {
+    div.flippImg {
+        background-image: url("flippBok oppgave 15.png");
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }
