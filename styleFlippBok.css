@@ -1,0 +1,30 @@
+img {
+    width: 100%;
+    height: auto;
+}
+div {
+    width: 100%;
+    height: auto;
+    background-image: url("flippBok\ oppgave.png")
+}
+
+@media screen and (min-width: 800px) {
+    img.flippImg {
+        src: "flippBok oppgave 2.png";
+    }
+}
+@media screen and(min-width: 750px) {
+    img.flippImg {
+        src: "flippBok oppgave 3.png";
+    }
+}
+@media screen and(min-width: 700px) {
+    img.flippImg {
+        src: "flippBok oppgave 4.png";
+    }
+}
+@media screen and(min-width: 650px) {
+    img.flippImg {
+        src: "flippBok oppgave 5.png";
+    }
+}
